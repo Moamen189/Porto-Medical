@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+
+
+/* start navbar */
+body{
+    overflow-x: hidden;
+}
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: rgb(33, 33, 124);
+}
+
+.navbar-dark .navbar-brand span {
+  color: rgb(33, 33, 124);
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: rgb(33, 33, 124);
+}
+
+/* start carousel */
+
+.carousel-inner1 {
+  color: aliceblue;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/10-ways-to-get-the-most-from-doctor-visit-2x.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.carousel .carousel-item {
+  margin-top: 180px;
+}
+
+/* treatt */
+.treatment {
+  margin-bottom: 30px;
+  margin-top: -50px;
+  
+}
+
+.treatment .container .row > div {
+  background-color: #008fe2;
+  color: white;
+  padding: 20px;
+  border: 2px solid #2d529f;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.treatment .container .row > div:hover i {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* about */
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about .container .row .col-md-8 {
+  margin-bottom: 20px;
+}
+
+.about .container .row .col-md-8 h3 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.about .container .row .col-md-8 p {
+  line-height: 1.8;
+  color: #b1aeae;
+}
+
+.about .container .row .col-md-8 button:hover {
+  color: black;
+}
+
+.about .container .row .col-md-4 img {
+  width: 100%;
+}
+
+.blackbtn {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.555);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.555);
+  font-size: 13px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.blue {
+  color: #008fe2;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* department */
+.dep {
+  background-color: rgba(252, 249, 249, 0.76);
+  padding: 40px 0px;
+}
+
+.dep .container a {
+  color: black;
+  background-color: rgba(204, 204, 204, 0.541);
+}
+
+.dep .container a:hover {
+  color: black;
+  background-color: white;
+}
+
+.dep .container p {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.dep .container .row {
+  margin: 50px 0px;
+}
+
+.dep .container .row > div img {
+  padding-right: 15px;
+}
+
+.dep .container .row .text {
+  line-height: 1.8;
+}
+/* Doctors */
+.doctor {
+  margin: 20px 0px;
+}
+
+.doctor .container h2 {
+  color: black;
+}
+
+.doctor .container p {
+  font-size: 20px;
+}
+
+.doctor .container .row > div {
+  border: 1px solid rgb(197, 191, 191);
+  cursor: pointer;
+}
+
+.doctor .container .row > div:hover .text {
+  background-color: #008fe2;
+  color: white;
+}
+
+.doctor .container .row > div .img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.doctor .container .row > div .img img {
+  width: 100%;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.doctor .container .row > div .img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.doctor .container .row > div .text {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.doctor .container .row > div .text h5 i {
+  padding-left: 20px;
+}
+/* resourse */
+.resource {
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.resource .container a {
+  text-decoration: none;
+}
+
+.resource .container h2 {
+  margin: 10px 0px;
+  padding-top: 20px;
+}
+
+.resource .container .row > div {
+  padding: 20px 10px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.resource .container .row > div:hover {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.resource .container .row .text h4 {
+  color: black
+}
+
+.resource .container .row .text p {
+  color: #a8a2a2;
+}
+/* part */
+.part {
+  margin: 30px 0px;
+}
+
+.part .container .row > div {
+  border: 0.5px solid rgb(184, 182, 182);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.part .container .row > div img {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.opinion {
+  background-color: #2d529f;
+}
+
+.opinion .container {
+  color: white;
+}
+
+.opinion .container #carouselExampleSlidesOnly {
+  margin: auto;
+  width: 50%;
+}
+
+.opinion .container #carouselExampleSlidesOnly .carousel-item {
+  padding: 60px 0px;
+  cursor: pointer;
+}
+
+.opinion .container #carouselExampleSlidesOnly .carousel-item p {
+  text-align: center;
+}
+
+.opinion .container #carouselExampleSlidesOnly .carousel-item h3 {
+  text-align: center;
+}
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}

@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+body {
+  padding-top: 50px;
+  background-color: #fffffff5;
+}
+/* start navbar */
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: rgb(33, 33, 124);
+}
+
+.navbar-dark .navbar-brand span {
+  color: rgb(33, 33, 124);
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: rgb(33, 33, 124);
+}
+
+
+/* start content */
+
+.page-title{
+  margin-top: 10px;
+  color: whitesmoke;
+  font-weight: normal;
+}
+.page-sub-title{
+  color:rgba(255, 255, 255, 0.671);
+}
+.blackbtn {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.555);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.555);
+  font-size: 13px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.info {
+  margin-top: 30px;
+}
+
+.info .container .text h1 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.info .container .text p {
+  color: #b1aeae;
+  line-height: 1.8;
+}
+
+.info .container .row {
+  margin: 20px 0px;
+}
+
+.info .container .row .col-md-4 img {
+  width: 100%;
+}
+
+.info .container .row .col-md-7 h4 {
+  color: #008fe2;
+}
+
+.info .container .row .col-md-7 p {
+  color: #b1aeae;
+}
+/* end of content */
+.prepare {
+  margin: 30px 0px;
+}
+
+.prepare .container .row .col-md-3 h4 {
+  margin-bottom: 20px;
+}
+
+.prepare .container .row .col-md-3 ul li {
+  list-style: none;
+}
+
+.prepare .container .row .col-md-3 ul li a {
+  line-height: 1.8;
+  color: gray;
+  text-decoration: none;
+}
+
+.prepare .container .row .col-md-3 ul li a:hover {
+  color: #008fe2;
+  cursor: pointer;
+}
+
+.prepare .container .row .col-md-8 h3 {
+  margin-bottom: 30px;
+}
+
+.prepare .container .row .col-md-8 p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.prepare .container .row .col-md-8 .text-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prepare .container .row .col-md-8 .text-photo span {
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.prepare .container .row .col-md-8 .text-photo img {
+  width: 100%;
+}
+
+.prepare .container .row .col-md-8 p.lastp {
+  font-size: 15px;
+}
+
+.prepare .container .bring {
+  width: 50%;
+  margin: auto;
+}
+
+.prepare .container .bring ul li {
+  list-style: none;
+  line-height: 2;
+}
+
+.prepare .container .bring ul li i {
+  color: #008fe2;
+  padding-right: 10px;
+}
+
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}
+/* End content */

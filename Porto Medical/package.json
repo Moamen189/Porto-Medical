@@ -1,0 +1,19 @@
+{
+  "name": "momen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass scss/style.scss css/style.css -w ",
+    "start1": "node-sass scss/aboutus.scss css/aboutus.css -w ",
+    "start2": "node-sass scss/Resourses.scss css/Resourses.css -w ",
+    "start3": "node-sass scss/contact.scss css/contact.css -w ",
+    "start4": "node-sass scss/dep.scss css/dep.css -w "
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

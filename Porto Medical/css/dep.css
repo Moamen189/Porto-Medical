@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+body {
+  padding-top: 50px;
+  background-color: #fffffff5;
+}
+/* start navbar */
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: rgb(33, 33, 124);
+}
+
+.navbar-dark .navbar-brand span {
+  color: rgb(33, 33, 124);
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: rgb(33, 33, 124);
+}
+
+/* start content */
+
+.page-title{
+  margin-top: 10px;
+  color: whitesmoke;
+  font-weight: normal;
+}
+.page-sub-title{
+  color:rgba(255, 255, 255, 0.671);
+}
+.blackbtn2 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.555);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.555);
+  font-size: 13px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.blackbtn2:hover {
+  background-color: #858383 !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+.dep .container p {
+  line-height: 2;
+}
+
+.dep .container .row .box {
+  margin: 20px 0px;
+}
+.blue {
+  color: #008fe2;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}
